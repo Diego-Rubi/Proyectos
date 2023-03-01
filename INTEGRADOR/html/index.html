@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="es">
+<html prefix="og: https://ogp.me/ns#">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum vitae</title>
+    <link rel="stylesheet" type="text/css" href="C:\Users\Diego Rubi\INTEGRADOR\css\styles.css"/>
+
+<!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+<!--Open Graph-->
+    <meta property="og:title" content="Curriculum Vitae" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="Aqui iria el link de la web" />
+    <meta property="og:image" content="https://cdn.pixabay.com/photo/2021/02/02/12/22/cv-5973796_1280.png"/>
+
+<!--Iconos-->
+    <link rel="shortcut icon" type="image/x-icon" href="https://img.icons8.com/small/512/resume.png">
+    <script src="https://kit.fontawesome.com/a2d02827d5.js" crossorigin="anonymous"></script>
+
+<!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&family=Merriweather:ital,wght@1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="container text-center">
+      <img src="" id = "foto" class="avatar" alt="Foto Curriculum">
+      <h1 id="nombre"></h1>
+    </div>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand">Menú</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav" id="menu">
+            <a class="nav-link" aria-current="page" href="#info">Información Personal</a>
+            <a class="nav-link" href="#me">Sobre mí</a>
+            <a class="nav-link" href="#exp">Experiencia</a>
+            <a class="nav-link" href="#habilidades">Habilidades</a>
+            <a class="nav-link" href="#estudios">Estudios</a>
+            <a class="nav-link" href="#contactos">Contactos</a>
+            <a class="nav-link" href="#redes">Redes Sociales</a>
+            <a class="nav-link" href="#idiomas">Idiomas</a>
+
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <article>
+    <div class="container">
+      <div class="row">
+
+        <!--COLUMNA 1-->
+        <div class="col">
+
+          <!--Informacion personal-->
+          <div class="container-fluid" id="info">
+
+            <h2> <i class="fa-solid fa-address-book"></i>Información Personal</h2>
+            <ul>
+              <li>Edad: <span id="age"></span></li>
+              <li>Ciudad: <span id="city"></span></li>
+              <li>Nacionalidad: <span id="country"></span></li>
+              <li>DNI: <span id="dni"></span></li>
+              <li>Carnet de conducir: <span id="carnet"></span></li>
+              <li>Domicilio: <span id="adress"></span></li>
+              <li>Estado Civil: <span id = "estado-civil"></span></li>
+            </ul>
+          </div>
+
+          <!--Acerca de mí-->
+          <div class="container-fluid" id="me">
+            <h2><i class="fa-sharp fa-solid fa-user-tie"></i>Acerca de mí</h2>
+            <p>Soy Ingeniero en Sistemas y poseo excelentes habilidades de análisis, planificación y trabajo en equipo que he adquirido durante mis estudios universitarios, las prácticas en el sector de sistemas y algunos trabajos a tiempo parcial en el sector informático y web-design. Como gerente de sistemas en Coca Cola, siempre demostré excelentes dotes de liderazgo. Me gustaría hacer prácticas en una empresa de comercio electrónico para ampliar mis conocimientos sobre marketing digital</p>
+          </div>
+
+          <!--Experiencia-->
+          <div class="container-fluid" id="exp">
+            <h2><i class="fa-solid fa-briefcase"></i>Experiencia</h2>
+            <div class="accordion">
+              <div class="accordion-item">
+                <h3 class="accordion-header" id="headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Coca Cola
+                  </button>
+                </h3>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <ul>
+                      <li>Puesto: Gerente de sistemas</li>
+                      <li>Duración: 3 años</li>
+                      <li>Tareas: dirigir la gestión de la infraestructura y redes de la entidad. Analizar decisiones estratégicas de soluciones tecnológicas globales. Planificar y definir políticas para la actualización de infraestructura tecnológica y software de explotación.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h3 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Emprendimiento Web Design
+                  </button>
+                </h3>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>Emprendimiento propio.</strong> Actualmente sigo diseñando páginas web. Es un negocio individual donde trabajo diseñando y manteniendo sitios web para varios locales de la ciudad.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h3 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Mercado Libre
+                  </button>
+                </h3>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                      <ul>
+                        <li>Puesto: Programador</li>
+                        <li>Duración: 1 año</li>
+                        <li>Tareas: Mantenimiento del sistema y depuración.</li>
+                      </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+         <!--COLUMNA 2-->
+        <div class="col">
+
+          <!--Estudios-->
+          <div class="container-fluid" id="estudios">
+              <h2><i class="fa-solid fa-graduation-cap"></i>Estudios</h2>
+              <div class="card" style="width: 18rem;">
+                  <img src="http://www.ipetym69.edu.ar/index_archivos/image003.jpg" class="img-fluid" alt="Escuela Secundaria" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">IPETyM N°69 "Juana Manso de Noronha"</h5>
+                    <li class="card-text">Duración: 7 años</li>
+                    <li class="card-text">Título: Tecnico Electronico</li>
+                    <a href="http://www.ipetym69.edu.ar" target="_blank" class="btn btn-primary">Pagina web</a>
+                  </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="https://udgba.org.ar/wp-content/uploads/2020/01/coderhouse_nuevo_300x300.jpg" class="img-fluid" alt="Logotipo coderhouse" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">CoderHouse</h5>
+                  <li class="card-text">Duración: 2 años</li>
+                  <li class="card-text">Certificado: Diseñador Web</li>
+                  <a href="https://www.coderhouse.com" target="_blank" class="btn btn-primary">Pagina web</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                  <img src="https://canalc.com.ar/wp-content/uploads/2022/01/08-utn.jpg" class="img-fluid" alt="Imagen de U.T.N" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Universidad Tecnológica Nacional</h5>
+                    <li class="card-text">Duración: 6 años</li>
+                    <li class="card-text">Título: Ingeniero en Sistemas</li>
+                    <a href="https://www.utn.edu.ar/es/estudiar-utn" target="_blank" class="btn btn-primary">Pagina web</a>
+                  </div>
+              </div>
+          </div>
+        </div>
+
+         <!--COLUMNA 3-->
+        <div class="col">
+
+          <!--Contactos-->
+          <div class="container-fluid" id="contacto">
+            <h2><i class="fa-solid fa-phone-volume"></i>Contactos</h2>
+            <ul>
+              <li>Número de celular: <span id="celular"></span></li>
+              <li>E-mail: <span id="email"></span></li>
+              <li>Número de télefono fijo: <span id="fijo"></span></li>
+            </ul>
+          </div>
+
+          <!--Redes-->
+          <div class="container-fluid" id="redes">
+            <h2><i class="fa-solid fa-globe"></i>Redes sociales</h2>
+            <div>
+              <ul class="list-group">
+                <li  class="list-group-item"><a target="_blank" href="https://www.facebook.com/barryy.gonzales44">Facebook</a></li>
+                <li  class="list-group-item"><a target="_blank" href="https://www.linkedin.com/in.barry.gonzales">Linkedin</a></li>
+                <li  class="list-group-item"><a target="_blank" href="https://github.com/Diego-Rubi">Github</a></li>
+              </ul>
+            </div>
+          </div>
+          
+          <!--Idiomas-->
+          <div class="container-fluid" id="idiomas">
+            <h2><i class="fa-solid fa-language"></i>Idiomas</h2>
+
+            <h6>Español</h6>
+            <div class="progress" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar" style="width: 100%"></div>
+            </div>
+
+            <h6>Ingles</h6>
+            <div class="progress" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar" style="width: 70%"></div>
+            </div>
+
+            <h6>Italiano</h6>
+            <div class="progress" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar" style="width: 25%"></div>
+            </div>
+          </div>
+          
+          <div class="container-fluid" id="habilidades">
+            <h2><i class="fa-solid fa-people-group"></i>Habilidades</h2>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Ética y Respeto</li>
+              <li class="list-group-item">Trabajo en equipo</li>
+              <li class="list-group-item">Liderazgo</li>
+              <li class="list-group-item">Constancia y Persistencia</li>
+              <li class="list-group-item">Manejo de herramientas digitales</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </article>
+  <footer>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  <script src="C:\Users\Diego Rubi\INTEGRADOR\javascript\app.js"></script>
+</body>
+</html>

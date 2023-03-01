@@ -1,0 +1,92 @@
+
+* {
+    box-sizing: border-box;
+    color: black;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+div h1 {
+    font-weight: bold;
+    font-family: 'Merriweather', serif;
+    color: cadetblue;
+    margin-top:20px;
+    text-shadow: 10px 7px 10px black;
+}
+
+header {
+    background-color: rgb(49, 49, 49);
+}
+
+.avatar{
+    height: 170px;
+    width: 170px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto;
+    margin-top: 20px;
+    box-shadow: 1px 1px 30px black;
+}
+
+
+.collapse.navbar-collapse a.nav-link{
+    color: rgb(0, 0, 0);
+}
+
+a.navbar-brand{
+    color: rgb(0, 45, 46);
+    border-right-style:solid;
+    border-left-style:solid;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-color: rgb(0, 45, 46);
+    padding-right:10px;
+    padding-left:10px;
+}
+
+nav.navbar {
+    background-color: #c5c5c5;
+}
+
+div.container-fluid h2{
+    font-weight: bold;
+    font-family: 'Merriweather', serif;
+    color: rgb(0, 66, 68);
+    margin-top:60px;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    
+}
+
+.card {
+    margin-top:20px;
+    margin-bottom: 20px;
+    background-color: rgb(255, 250, 243);
+}
+
+h5.card-title {
+    font-family: 'Merriweather', serif;
+    color: rgb(51, 51, 51);
+}
+
+li.list-group-item{
+    background-color: transparent;
+    border: var(--bs-list-group-border-width) solid #696969;
+}
+
+article {
+    background-color: rgb(218, 217, 217);
+}
+
+button.accordion-button.collapsed, div.accordion-item {
+    background-color: rgb(197, 197, 197);
+}
+
+.card-body {
+    background-color: rgb(197, 197, 197);
+}
+
+h2 i {
+    margin-right:10px;
+    color: rgb(32, 32, 32);
+}
